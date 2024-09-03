@@ -1,0 +1,323 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'jost',sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  body{
+    background-color: whitesmoke;
+    font-family: century;
+    cursor: pointer;
+  }
+  center{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    font-family: arial;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid ;
+    box-shadow: 60px;
+    background-color: whitesmoke;
+  }
+  span{
+       color:   rgb(61, 130, 241);
+       font-weight: bold;
+  }
+  /*le logo*/
+  .corone{
+    margin: 41.3px;
+    font-size: 1.7rem;
+  }
+  .DB{
+    margin: 31px;
+    font-family: arial black;
+    font-size: 1.6rem;
+  }
+  .logo{
+    top: 6%;
+  }
+  .logo a{
+    color: whitesmoke;
+    padding: 0px 20px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: century;
+    background-color: whitesmoke;
+  }
+  .logo span{
+    color: black;
+    font-weight: bold;
+  }
+  /*header*/
+  header{
+    border: 2px solid;
+    background-color:   rgb(61, 130, 241);
+     position: fixed;
+     width: 100%;
+     top: 0;
+     height: 20%;
+     right: 0;
+     z-index: 1000;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 10%;
+     box-shadow: 50px;
+  }
+  /*menu (home..)*/
+  .navmenu{
+    margin-top: 2.6%;
+     margin-left: 25%;
+     display: flex;
+  }
+  .dive {
+    background-color: whitesmoke;
+    border: 2px solid transparent;
+ }
+  .navmenu a{
+     color: black;
+     font-size: 16px;
+     text-transform: capitalize;
+     padding: 10px 20px;
+     font-weight: 400;
+     transition: all .42s ease;
+  }
+  .navmenu a:hover{
+      border: 1px solid black;
+      margin: 20px;
+      color: black;
+  }
+
+/*image user*/
+.img1 img{
+    margin-left: 71%;
+    width: 120px;
+    height: 100px;
+  }
+  .img1 img:hover {
+    border: 2px solid ;
+    width: 125px;
+    height: 105px;
+  }
+  
+  
+  /* Styles pour le tableau */
+table {
+    margin-left: 4%;
+    margin-right: 4%;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th, td {
+    border: 3px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: rgb(61, 130, 241);
+    color: white;
+}
+td{
+    font-size: larger;
+    margin-left: 4%;
+    color: black;
+}
+h2 {
+    color: rgb(61, 130, 241);
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+/* Styles pour le formulaire */
+.for{
+border: 5px solid  rgb(61, 130, 241);
+margin-left: 28%;
+margin-right: 28%;
+box-shadow:  #000;
+margin-top: 8%;
+}
+.form-container a{
+    text-decoration: none;
+}
+.form-container .a{
+    background-color: rgb(61, 130, 241);
+    color: white;
+    border: 1px solid transparent;
+    text-align: center;
+    font-size: larger;
+    border-radius: 5px;
+}
+form {
+margin-top: 40cm;
+max-width: 400px;
+margin: 0 auto;
+}
+.text{
+text-align: center;
+font-size: xx-large;
+color:rgb(61, 130, 241);
+}
+input {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: larger;
+}
+input[type="submit"] {
+background-color: rgb(61, 130, 241);
+color: #fff;
+border: none;
+cursor: pointer;
+}
+input[type="submit"]:hover {
+background-color:  rgb(61, 130, 241);
+}
+
+/*menu*/
+.menuu{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 4%;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  .menu{
+    width: 4%;
+  }
+  .menu .a1{
+    margin: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+  }
+  .menu .a2{
+    margin: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+  }
+  .menu .a3{
+    margin: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+  }
+  .menu a:hover{
+    border: 2px solid black;
+    margin: 20px;
+    color: black;
+  }
+  .menu{
+    margin-top: 4%;
+    width: 80%;
+    height: 35%;
+    font-size: 1.1rem;
+    display: flex;
+    background-color:  rgb(61, 130, 241);
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 5%;
+  }
+
+  
+/*pied de page*/
+  /*corp du footer*/
+  footer {
+    margin-top: 4%;
+    flex-shrink: 0;
+    border-top: 4px dashed #000;
+    width: 100%;
+    background-color:  rgb(230, 230, 233);
+    color: #000;
+    box-shadow: 60px;
+  }
+  /*pour tout les elements a du footer*/
+  footer a {
+   text-decoration: none;
+   color: #000;
+  }
+  /*pour tout les elements h3 du footer*/
+  footer h3{
+    text-decoration: underline;
+   padding-bottom: 20px ;
+  }
+  /*pour tout les bloc du footer*/
+  footer .bloc {
+   width: 40%;
+   margin: 0 7px;
+  }
+  /*la class contenu du footer*/
+  .contenu-footer{
+   width: 900px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   font-size: 17px;
+   padding: 20px 0px 20px;
+  }
+  /*coleur email*/
+  footer .email{
+   color: rgb(61, 130, 241);
+  }
+  footer .contact p{
+   padding: 5px O;
+  }
+  /*les media*/
+  .liste-media {
+   position: relative;
+   right: 10px;
+  }
+  .liste-media img{
+    border-left: 5.5px solid ;
+   width: 40px;
+   margin: 10px 10px;
+  }
+  .liste-media a{
+   display: flex;
+   align-items: center;
+  }
+  /*image footer*/
+footer .im1 img {
+  margin-top: 1%;
+  height: 160px;
+  width: 220px;
+}
+  /*la date*/
+  .date
+  {
+   background: rgb(61, 130, 241);
+   display: flex;
+   font-family: arial ;
+   font-size: 1.3rem;
+   flex-wrap: wrap;
+    padding-left: 600px;
+    width: 750px;  
+  }
